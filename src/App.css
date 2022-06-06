@@ -1,3 +1,23 @@
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.flex{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(3,1fr);
+   gap: 10px;
+   
+}
+.flex>div{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
 .App {
   text-align: center;
 }
